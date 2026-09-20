@@ -1,8 +1,8 @@
 # week 2 - Test Case Design
 
 - Equivalence Partitioning
-- Baoundary Value Analysis
+- Boundary Value Analysis
 - Decision Tables
-- State Transation Testing
+- State Transition Testing
 - Pairwise/combinatorial testing
 - Error Guessing
