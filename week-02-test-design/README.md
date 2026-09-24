@@ -1,8 +1,10 @@
-# week 2 - Test Case Design
+# Week 02 Test Designs
 
-- Equivalence Partitioning
-- Boundary Value Analysis
-- Decision Tables
-- State Transition Testing
-- Pairwise/combinatorial testing
-- Error Guessing
+## Test Design Techniques
+
+- [x] Equivalence Partitioning
+- [x] Boundary Value Analysis
+- [x] Decision Tables
+- [x] State Transition Testing
+- [x] Pairwise Testing
+- [x] Error Guessing
