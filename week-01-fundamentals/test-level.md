@@ -7,7 +7,7 @@
 Unit Test Level:
 
 - It is a stage where developers write and test each unit in isolation.
-- Developers own this level; QA's just review tests and provide the requirement perspective too close to the developer.
+- Developers own this level; QA's just review tests.
 - M-Pesa application has hundreds of rules and decisions, and each one is a unit, so developers test the unit according to the requirement.
 - Skipping these levels would cause bugs that would later be found in production, which could be costly for the company.
 
