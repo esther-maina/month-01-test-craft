@@ -6,15 +6,15 @@
 
 ## A sample of bug report that includes every detail
 
-- QUESTION: You are a QA engineer at Cellipay and you did a test on the loan application on SamSung Galaxy A32 android 11,where the submit button on the appliacation form is unresponsive. No alerts, No notification. Just a silent bug. But testing the same process on iOS(iphone 13) the submit button works perfectly. Write a sample of bug Report.
+- QUESTION: You are a QA engineer at Cellipay and you did a test on the loan application on SamSung Galaxy A32 android 11,where the submit button on the application form is unresponsive. No alerts, No notification. Just a silent bug. But testing the same process on iOS(iphone 13) the submit button works perfectly. Write a sample of bug Report.
 
 - TITLE: Loan application submit button unresponsive on SamSung Galaxy A32(android 11),but on iphone it works.
 
-- Enviroment: Device Type: SamSung Galaxy A32
+- Environment: Device Type: SamSung Galaxy A32
             App Version: Cellipay app version 2.3.1
             Netwrok: Safaricom 4G data bundles
 
-- Precondtions: User not yet logged in
+- Preconditions: User not yet logged in
                App already installed with the latest version.
                Device connected to the internet.
 
