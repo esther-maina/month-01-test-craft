@@ -12,7 +12,7 @@
 
 - Environment: Device Type: SamSung Galaxy A32
             App Version: Cellipay app version 2.3.1
-            Netwrok: Safaricom 4G data bundles
+            Network: Safaricom 4G data bundles
 
 - Preconditions: User not yet logged in
                App already installed with the latest version.
