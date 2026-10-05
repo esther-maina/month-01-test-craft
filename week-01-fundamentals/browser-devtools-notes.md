@@ -43,24 +43,25 @@ As a good QA, you should also check the application to make sure it is secure. H
 
 ## A SIMPLE BUG REPORT: SWAGLAB.COM SESSION COOKIES HAD EMPTY HTTPONLY, SECURE, AND SAMESITE VALUES
 
-1. Title: Security Vulnerability: Missing cookie security flags on swaglab.com
+1.Title: Security Vulnerability: Missing cookie security flags on swaglab.com
 
-2. Summary: While exploring the app in the browser developer tools, in the Application tab, I found that the session cookies are missing the HttpOnly, Secure, and SameSite attributes.
+2.Summary: While exploring the app in the browser developer tools, in the Application tab, I found that the session cookies are missing the HttpOnly, Secure, and SameSite attributes.
 
-3. Preconditions: You should have an internet connection.
+3.Preconditions: You should have an internet connection.
 
-4. Steps to reproduce:
-5. Open the site in the browser.
-6. Log in to <www.saucedemo.com> using the username: standard_user and password: secret_sauce.
-7. Right-click the page and select Inspect, or press F12 to open Developer Tools.
-8. Navigate to Application tab > Cookies.
-9. Inspect the session cookies.
-10. Observe that HttpOnly, Secure, and SameSite are empty.
+4.Steps to reproduce:
 
-11. Expected Result: The site should configure all session cookies with proper security attributes to protect user sessions.
+- Open the site in the browser.
+- Log in to <www.saucedemo.com> using the username: standard_user and password: secret_sauce.
+- Right-click the page and select Inspect, or press F12 to open Developer Tools.
+- Navigate to Application tab > Cookies.
+- Inspect the session cookies.
+- Observe that HttpOnly, Secure, and SameSite are empty.
 
-12. Actual Result: The cookies are missing the HttpOnly, Secure, and SameSite attributes.
+5.Expected Result: The site should configure all session cookies with proper security attributes to protect user sessions.
 
-13. Severity: High
+6.Actual Result: The cookies are missing the HttpOnly, Secure, and SameSite attributes.
 
-14. Impact: This may expose the site to session hijacking, cross-site request forgery (CSRF), and cookie theft through malicious JavaScript injection.
+7.Severity: High
+
+8.Impact: This may expose the site to session hijacking, cross-site request forgery (CSRF), and cookie theft through malicious JavaScript injection.
