@@ -51,7 +51,7 @@ As a good QA, you should also check the application to make sure it is secure. H
 
 4. Steps to reproduce:
 5. Open the site in the browser.
-6. Log in to swaglab.com using the username: standard_user and password: secret_sauce.
+6. Log in to <www.saucedemo.com> using the username: standard_user and password: secret_sauce.
 7. Right-click the page and select Inspect, or press F12 to open Developer Tools.
 8. Navigate to Application tab > Cookies.
 9. Inspect the session cookies.
